@@ -4,4 +4,5 @@
 
 ## CSS
 
+* [Flex](css/flex.md)
 * [Grid](css/grid.md)
