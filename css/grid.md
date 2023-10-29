@@ -65,9 +65,7 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
 {% endtab %}
 {% endtabs %}
 
-
-
-
+<figure><img src="../.gitbook/assets/螢幕錄影 2023-10-29 16.19.27 (1).gif" alt=""><figcaption><p>動圖演示</p></figcaption></figure>
 
 
 
