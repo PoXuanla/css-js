@@ -44,32 +44,28 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
 
 ### auto-fill ＆auto-fit
 
-共同點：
+<mark style="background-color:orange;">共同點</mark>
 
-1. 兩者在空間不足的情況下元素皆會是 min size，塞不下的元素就會換行。
-2. 當空間增加但還不比一個元素的 min size 大時，行中的每個元素就會平均瓜分多的空間。
+* 兩者在空間不足的情況下元素皆會是 min size，塞不下的元素就會換行
+* 當空間增加但還不比一個元素的 min size 大時，行中的每個元素就會平均分配多的空間
 
-差異點：
+<figure><img src="../.gitbook/assets/auto-fill.gif" alt=""><figcaption><p>動圖演示</p></figcaption></figure>
 
-1. 一行的空間足以放下所有元素且還有剩餘空間，則兩者瓜分剩餘空間的方式不同。
+<mark style="background-color:orange;">差異點</mark>
 
-#### auto-fill
+* 一行的空間足以放下所有元素，多出來的空間分配機制不一樣
 
-通常都是使用在 repeat 的第一個參數
+{% tabs %}
+{% tab title="auto-fit" %}
+元素會平均分配剩餘空間。
+{% endtab %}
 
-當剩餘空間 >= minmax 最小值不會分配剩餘空間給每一個格子
+{% tab title="auto-fill" %}
+元素會平均分配剩餘空間取 minSize 的餘數。
+{% endtab %}
+{% endtabs %}
 
-當剩餘空間 < minmax 最小值會分配剩餘空間給每個格子
 
-當剩餘空間 < 0 會換行
-
-#### auto-fit
-
-當剩餘空間 > 0 會均分給每個格子
-
-當剩餘空間 < 0 會換行
-
-為格子設置最小 & 最大寬度，使其具有伸縮性。
 
 
 
