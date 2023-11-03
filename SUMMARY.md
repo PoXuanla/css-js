@@ -1,6 +1,7 @@
 # Table of contents
 
 * [CSS/JS](README.md)
+* [Tailwind](tailwind.md)
 
 ## CSS
 
