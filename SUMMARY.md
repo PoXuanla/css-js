@@ -1,7 +1,6 @@
 # Table of contents
 
 * [CSS/JS](README.md)
-* [Tailwind](tailwind.md)
 
 ## CSS
 
@@ -12,3 +11,7 @@
 ## 切版
 
 * [聊天泡泡](qie-ban/liao-tian-pao-pao.md)
+
+## Tailwind
+
+* [Intro](tailwind/intro.md)
