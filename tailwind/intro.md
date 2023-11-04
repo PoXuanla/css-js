@@ -20,4 +20,4 @@ ClassName 都是一個個的 css property
 
 ### 輕量化
 
-build 階段可透過 Purge Tree-Shaking 沒使用到的屬性，大大的減少 css file 的大小。
+在構建時只會產生有使用到屬性的 css 檔案，減少不少 css 體積。
