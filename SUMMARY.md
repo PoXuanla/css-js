@@ -1,6 +1,6 @@
 # Table of contents
 
-* [CSS/JS](README.md)
+* [Note](README.md)
 
 ## CSS
 
@@ -15,3 +15,7 @@
 ## Tailwind
 
 * [Intro](tailwind/intro.md)
+
+## Group 1
+
+* [GIT](group-1/git.md)
