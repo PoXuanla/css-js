@@ -18,4 +18,5 @@
 
 ## Group 1
 
-* [GIT](group-1/git.md)
+* [git rebase](group-1/git-rebase.md)
+* [deplay.sh](group-1/deplay.sh.md)
